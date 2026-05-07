@@ -1,0 +1,80 @@
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/YASHAS S/OneDrive/Desktop/Internship Project/Shift Register/shift_register.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/YASHAS S/OneDrive/Desktop/Internship Project/Shift Register/shift_register.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/YASHAS S/OneDrive/Desktop/Internship Project/Shift Register/shift_register.mpf).  File can not be renamed.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/YASHAS S/OneDrive/Desktop/Internship Project/Shift Register/shift_register.mpf).  File can not be renamed.
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vlog shift_register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:59:16 on May 07,2026
+# vlog -reportprogress 300 shift_register.v 
+# -- Compiling module shift_register
+# 
+# Top level modules:
+# 	shift_register
+# End time: 21:59:16 on May 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog shift_register_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:00:07 on May 07,2026
+# vlog -reportprogress 300 shift_register_tb.v 
+# -- Compiling module shift_register_tb
+# 
+# Top level modules:
+# 	shift_register_tb
+# End time: 22:00:07 on May 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.shift_register_tb
+# vsim work.shift_register_tb 
+# Start time: 22:00:16 on May 07,2026
+# Loading work.shift_register_tb
+# Loading work.shift_register
+add wave *
+run 100ns
+# ** Note: $stop    : shift_register_tb.v(31)
+#    Time: 100 ps  Iteration: 0  Instance: /shift_register_tb
+# Break in Module shift_register_tb at shift_register_tb.v line 31
+# WARNING: No extended dataflow license exists
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -step
+run -step
+run
+# Paste insertion failed: run: ** UI-Msg: (vish-4014) No objects found matching 'run'.
+# Paste insertion failed: 100ns: ** UI-Msg: (vish-4014) No objects found matching '100ns'.
+run 100ns
+vlog shift_register_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:15:22 on May 07,2026
+# vlog -reportprogress 300 shift_register_tb.v 
+# -- Compiling module shift_register_tb
+# 
+# Top level modules:
+# 	shift_register_tb
+# End time: 22:15:22 on May 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave *
+run -over
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/YASHAS S/OneDrive/Desktop/Internship Project/Shift Register/wave.do}
